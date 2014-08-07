@@ -3,11 +3,11 @@
 
 23 Video extension for the Media Explorer.
 
-	**Contributors:** [soderlind](http://profiles.wordpress.org/pers)
-	**Tags:** [media explorer](http://wordpress.org/plugins/tags/media explorer), [mexp](http://wordpress.org/plugins/tags/mexp), [media](http://wordpress.org/plugins/tags/media)
-	**Requires at least:** 3.6
-	**Tested up to:** 3.9.2
-	**License:** [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)
+**Contributors:** [soderlind](http://profiles.wordpress.org/pers)
+**Tags:** [media explorer](http://wordpress.org/plugins/tags/media explorer), [mexp](http://wordpress.org/plugins/tags/mexp), [media](http://wordpress.org/plugins/tags/media)
+**Requires at least:** 3.6
+**Tested up to:** 3.9.2
+**License:** [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)
 
 ## Description ##
 
