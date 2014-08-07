@@ -23,6 +23,8 @@ Install and activate the [Media Exporer](https://github.com/Automattic/media-exp
 
 ## Installation ##
 
+Use `git clone --recursive https://github.com/soderlind/mexp-23.git` to get the [submodule](https://github.com/soderlind/class-wp-23-video) in `lib`
+
 Upload MEXP 23 plugin to your blog's `wp-content/plugins/` directory and activate.
 
 ## Screenshots ##
