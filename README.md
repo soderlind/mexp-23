@@ -3,11 +3,11 @@
 
 23 Video extension for the Media Explorer.
 
-**Contributors:** [soderlind](http://profiles.wordpress.org/pers)  
-**Tags:** [media explorer](http://wordpress.org/plugins/tags/media explorer), [mexp](http://wordpress.org/plugins/tags/mexp), [media](http://wordpress.org/plugins/tags/media)  
-**Requires at least:** 3.6  
-**Tested up to:** 3.9.2  
-**License:** [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)  
+**Contributors:** [soderlind](http://profiles.wordpress.org/pers)
+**Tags:** [media explorer](http://wordpress.org/plugins/tags/media explorer), [mexp](http://wordpress.org/plugins/tags/mexp), [media](http://wordpress.org/plugins/tags/media)
+**Requires at least:** 3.6
+**Tested up to:** 3.9.2
+**License:** [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)
 
 ## Description ##
 
@@ -27,9 +27,11 @@ Upload MEXP 23 plugin to your blog's `wp-content/plugins/` directory and activat
 
 ## Screenshots ##
 
-### Search photos from Picasa within media explorer
+### Search photos from 23 Video within media explorer
 
 ![Search videos from 23 Video within media explorer](assets/screenshot-1.png)
+
+### Add credentials in the 23 Video settings page
 
 ![23 Video settings](assets/screenshot-2.png)
 
