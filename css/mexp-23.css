@@ -1,0 +1,19 @@
+.mexp-item-23 {
+	height: 336px;
+}
+
+.mexp-item-23 .mexp-item-thumb {
+	width: 288px;
+	max-height: 288px;
+}
+
+.mexp-item-23 .mexp-item-thumb img {
+	width: auto;
+	max-width: 99%;
+}
+
+.mexp-item-23 .mexp-item-main {
+	width: 288px;
+	/*max-height: 48px;*/
+	overflow: hidden;
+}
