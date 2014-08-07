@@ -3,11 +3,11 @@
 
 23 Video extension for the Media Explorer.
 
-**Contributors:** [soderlind](http://profiles.wordpress.org/pers)
-**Tags:** [media explorer](http://wordpress.org/plugins/tags/media explorer), [mexp](http://wordpress.org/plugins/tags/mexp), [media](http://wordpress.org/plugins/tags/media)
-**Requires at least:** 3.6
-**Tested up to:** 3.9.2
-**License:** [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)
+	**Contributors:** [soderlind](http://profiles.wordpress.org/pers)
+	**Tags:** [media explorer](http://wordpress.org/plugins/tags/media explorer), [mexp](http://wordpress.org/plugins/tags/mexp), [media](http://wordpress.org/plugins/tags/media)
+	**Requires at least:** 3.6
+	**Tested up to:** 3.9.2
+	**License:** [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)
 
 ## Description ##
 
@@ -23,7 +23,7 @@ Install and activate the [Media Exporer](https://github.com/Automattic/media-exp
 
 ## Installation ##
 
-Use `git clone --recursive https://github.com/soderlind/mexp-23.git` to get the [submodule](https://github.com/soderlind/class-wp-23-video) in `lib`
+To clone the plugin, including the `lib` [submodule](https://github.com/soderlind/class-wp-23-video), you need to use the git `--recursive` parameter:  `git clone --recursive https://github.com/soderlind/mexp-23.git`
 
 Upload MEXP 23 plugin to your blog's `wp-content/plugins/` directory and activate.
 
@@ -37,10 +37,13 @@ Upload MEXP 23 plugin to your blog's `wp-content/plugins/` directory and activat
 
 ![23 Video settings](assets/screenshot-2.png)
 
-
 ## Changelog ##
 
 ### 0.1.0 ###
 Initial release
+
+## Credits ##
+
+I learned a lot, and borrowed code, from [MEXP Picasa](https://github.com/gedex/mexp-picasa) and [MEXP Flickr](https://github.com/gedex/mexp-flickr).
 
 
