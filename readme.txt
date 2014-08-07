@@ -7,18 +7,18 @@ Stable tag:        trunk
 License:           GPLv2 or later
 License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 
-23 Video extension for the Media Explorer.
+23 Video extension for WordPress Media Explorer.
 
 == Description ==
 
-This plugin is an extension for [Media Explorer](https://github.com/Automattic/media-explorer/) plugin that adds 23 Video service.
+This plugin is an extension for WordPress [Media Explorer](https://github.com/Automattic/media-explorer/) plugin that adds 23 Video service.
 This extension allows user to search vidoes from 23 Video by text and tag.
 
 **Development of this plugin is done [on GitHub](https://github.com/gedex/mexp-picasa). Pull requests welcome.**
 
 === Requirements and prerequisites ===
 
-Install and activate the [Media Explorer](https://github.com/Automattic/media-explorer/) plugin. You can use the MEXP 23 settings page (`Settings->23 Video`) to disable the services included with Media Explorer.
+Install and activate the WordPress [Media Explorer](https://github.com/Automattic/media-explorer/) plugin. You can use the MEXP 23 settings page (`Settings->23 Video`) to disable the services included with Media Explorer.
 
 === Credits ===
 
