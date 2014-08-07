@@ -11,14 +11,18 @@ License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-This plugin is an extension for [Media Exporer](https://github.com/Automattic/media-explorer/) plugin that adds 23 Video service.
+This plugin is an extension for [Media Explorer](https://github.com/Automattic/media-explorer/) plugin that adds 23 Video service.
 This extension allows user to search vidoes from 23 Video by text and tag.
 
 **Development of this plugin is done [on GitHub](https://github.com/gedex/mexp-picasa). Pull requests welcome.**
 
 === Requirements and prerequisites ===
 
-Install and activate the [Media Exporer](https://github.com/Automattic/media-explorer/) plugin. You can use the MEXP 23 settings page (`Settings->23 Video`) to disable the services included with Media Exporer.
+Install and activate the [Media Explorer](https://github.com/Automattic/media-explorer/) plugin. You can use the MEXP 23 settings page (`Settings->23 Video`) to disable the services included with Media Explorer.
+
+=== Credits ===
+
+I learned a lot, and borrowed code, from [MEXP Picasa](https://github.com/gedex/mexp-picasa) and [MEXP Flickr](https://github.com/gedex/mexp-flickr).
 
 == Installation ==
 
@@ -33,3 +37,5 @@ Upload MEXP 23  plugin to your blog's `wp-content/plugins/` directory and activa
 
 = 0.1.0 =
 Initial release
+
+

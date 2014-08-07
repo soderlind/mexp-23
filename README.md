@@ -11,14 +11,14 @@
 
 ## Description ##
 
-This plugin is an extension for [Media Exporer](https://github.com/Automattic/media-explorer/) plugin that adds 23 Video service.
+This plugin is an extension for [Media Explorer](https://github.com/Automattic/media-explorer/) plugin that adds 23 Video service.
 This extension allows user to search vidoes from 23 Video by text and tag.
 
 **Development of this plugin is done [on GitHub](https://github.com/soderlind/mexp-23). Pull requests welcome.**
 
 ## Requirements and prerequisites ##
 
-Install and activate the [Media Exporer](https://github.com/Automattic/media-explorer/) plugin. You can use the MEXP 23 settings page (`Settings->23 Video`) to disable the services included with Media Exporer.
+Install and activate the [Media Explorer](https://github.com/Automattic/media-explorer/) plugin. You can use the MEXP 23 settings page (`Settings->23 Video`) to disable the services included with Media Explorer.
 
 
 ## Installation ##
