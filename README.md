@@ -29,7 +29,7 @@ Upload MEXP 23 plugin to your blog's `wp-content/plugins/` directory and activat
 
 ## Screenshots ##
 
-### Search photos from 23 Video within media explorer
+### Search videos from 23 Video within media explorer
 
 ![Search videos from 23 Video within media explorer](assets/screenshot-1.png)
 
