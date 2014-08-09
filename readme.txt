@@ -11,7 +11,7 @@ License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-This plugin is an extension for WordPress [Media Explorer](https://github.com/Automattic/media-explorer/) plugin that adds 23 Video service.
+This plugin is an extension for WordPress [Media Explorer](https://github.com/Automattic/media-explorer/) plugin that adds [23 Video](http://www.23video.com/) service.
 This extension allows user to search vidoes from 23 Video by text and tag.
 
 **Development of this plugin is done [on GitHub](https://github.com/gedex/mexp-picasa). Pull requests welcome.**
