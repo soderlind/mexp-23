@@ -1,5 +1,6 @@
 === MEXP Picasa ===
 Contributors:      PerS
+Donate link: http://soderlind.no/donate/
 Tags:              media explorer, mexp, picasa, media
 Requires at least: 3.6
 Tested up to:      3.9.2
@@ -14,13 +15,13 @@ License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 This plugin is an extension for WordPress [Media Explorer](https://github.com/Automattic/media-explorer/) plugin that adds [23 Video](http://www.23video.com/) service.
 This extension allows user to search vidoes from 23 Video by text and tag.
 
-**Development of this plugin is done [on GitHub](https://github.com/gedex/mexp-picasa). Pull requests welcome.**
+Development of this plugin is done [on GitHub](https://github.com/soderlind/mexp-23). Pull requests welcome.**
 
-=== Requirements and prerequisites ===
+= Requirements and prerequisites =
 
 Install and activate the WordPress [Media Explorer](https://github.com/Automattic/media-explorer/) plugin. You can use the MEXP 23 settings page (`Settings->23 Video`) to disable the services included with Media Explorer.
 
-=== Credits ===
+= Credits =
 
 I learned a lot, and borrowed code, from [MEXP Picasa](https://github.com/gedex/mexp-picasa) and [MEXP Flickr](https://github.com/gedex/mexp-flickr).
 
