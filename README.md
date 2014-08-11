@@ -27,6 +27,8 @@ To clone the plugin, including the `lib` [submodule](https://github.com/soderlin
 
 Upload MEXP 23 plugin to your blog's `wp-content/plugins/` directory and activate.
 
+The plugin is also available from the [WordPress plugin directory](http://wordpress.org/plugins/mexp-23/).
+
 ## Screenshots ##
 
 ### Search videos from 23 Video within media explorer

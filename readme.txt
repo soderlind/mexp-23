@@ -1,7 +1,7 @@
-=== MEXP Picasa ===
+=== MEXP 23 ===
 Contributors:      PerS
 Donate link: http://soderlind.no/donate/
-Tags:              media explorer, mexp, picasa, media
+Tags:              media explorer,mexp,media
 Requires at least: 3.6
 Tested up to:      3.9.2
 Stable tag:        trunk
