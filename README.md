@@ -41,6 +41,9 @@ The plugin is also available from the [WordPress plugin directory](http://wordpr
 
 ## Changelog ##
 
+### 0.1.1 ###
+Updated submodule lib/class-wp-23-video.php, changed code for oauth_nonce
+
 ### 0.1.0 ###
 Initial release
 

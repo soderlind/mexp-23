@@ -5,7 +5,7 @@
  * Depends: Media Explorer
  * Plugin URI: https://github.com/soderlind/mexp-23
  * Description: 23 video extension for the Media Explorer.
- * Version: 0.1.0
+ * Version: 0.1.1
  * Author: PerS
  * Author URI: http://soderlind.no/
  * Text Domain: mexp-23
