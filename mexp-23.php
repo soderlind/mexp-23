@@ -5,14 +5,14 @@
  * Depends: Media Explorer
  * Plugin URI: https://github.com/soderlind/mexp-23
  * Description: 23 video extension for the Media Explorer.
- * Version: 0.1.1
+ * Version: 0.1.2
  * Author: PerS
  * Author URI: http://soderlind.no/
  * Text Domain: mexp-23
  * Domain Path: /languages
  * License: GPL v2 or later
  * Requires at least: 3.6
- * Tested up to: 3.9.1
+ * Tested up to: 3.9.2
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -38,7 +38,7 @@ class MEXP_23 {
 	/**
 	 * Plugin version.
 	 */
-	const VERSION = '0.1.0';
+	const VERSION = '0.1.2';
 
 	/**
 	 * Constructor.

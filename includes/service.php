@@ -68,7 +68,7 @@ class MEXP_23_Service extends MEXP_Service {
 	 *
 	 * @since 0.1.0
 	 * @filter mexp_tabs.
-	 * @param array $tabs Associative array of default tab items.
+	 * @param array   $tabs Associative array of default tab items.
 	 * @return array Associative array of tabs. The key is the tab ID and the value is an array of tab attributes.
 	 */
 	public function tabs( array $tabs ) {
@@ -82,7 +82,7 @@ class MEXP_23_Service extends MEXP_Service {
 				'text' => _x( 'By Tag', 'Tab title', 'mexp-23' ),
 			),
 			// 'user' => array(
-			// 	'text' => _x( 'By User', 'Tab title', 'mexp-23' ),
+			//  'text' => _x( 'By User', 'Tab title', 'mexp-23' ),
 			// ),
 		);
 
@@ -94,7 +94,7 @@ class MEXP_23_Service extends MEXP_Service {
 	 *
 	 * @since 0.1.0
 	 * @filter mexp_labels
-	 * @param array $labels Associative array of default labels.
+	 * @param array   $labels Associative array of default labels.
 	 * @return array Associative array of labels.
 	 */
 	public function labels( array $labels ) {
@@ -111,16 +111,16 @@ class MEXP_23_Service extends MEXP_Service {
 	public function request( array $request ) {
 
 
-		if ( ! empty($request['max_id'] )) {
+		if ( ! empty( $request['max_id'] ) ) {
 			$p = $request['max_id'];
 		} else {
 			$p = 1;
 		}
 
-		if ( ! empty($request['params']['text'] )) {
+		if ( ! empty( $request['params']['text'] ) ) {
 			$search = $request['params']['text'];
 		}
-		if ( ! empty($request['params']['tag'] )) {
+		if ( ! empty( $request['params']['tag'] ) ) {
 			$tags = $request['params']['tag'];
 		}
 		$size = (int) apply_filters( 'mexp_23_per_page', self::DEFAULT_PER_PAGE );
@@ -131,17 +131,17 @@ class MEXP_23_Service extends MEXP_Service {
 
 		$options = get_option( 'v23_options' );
 
-		if (!isset($options)) {
-			return new WP_Error( 'missing-23-options', 'You must set the settings on the "Settings->23 Video" setting page.' );
+		if ( !isset( $options ) ) {
+			return new WP_Error( 'missing-23-options', __( 'You must set the settings on the "Settings->23 Video" setting page.', 'mexp-23' ) );
 		}
 
 		extract( $options, EXTR_SKIP );
-		require_once( MEXP_23_DIR . 'lib/class-wp-23-video.php');
+		require_once MEXP_23_DIR . 'lib/class-wp-23-video.php';
 		$client = new WP_23_Video( $apiurl, $consumerkey, $consumersecret, $accesstoken, $accesstokensecret );
 
 		$request_args   = compact( 'include_unpublished_p', 'video_p', 'search', 'tags', 'p', 'size' );
 		// Response from feed.
-		$search_response = $client->get('/api/photo/list', $request_args );
+		$search_response = $client->get( '/api/photo/list', $request_args );
 		if ( is_wp_error( $search_response ) )
 			return $search_response;
 
@@ -155,15 +155,15 @@ class MEXP_23_Service extends MEXP_Service {
 			$item->set_url( $photo['absolute_url'] );
 			$item->set_content( $photo['title'] );
 
-			$thumbnail_url = sprintf("%s%s", $apiurl, $photo['medium_download']);
+			$thumbnail_url = sprintf( "%s%s", $apiurl, $photo['medium_download'] );
 			$item->set_thumbnail( $thumbnail_url );
 
 			$item->add_meta( 'video', array(
-				'video_length'        => $this->_seconds2time($photo['video_length'])
-			) );
+					'video_length'        => $this->_seconds2time( $photo['video_length'] )
+				) );
 			$item->add_meta( 'user', $photo['display_name'] );
 			$item->set_date( $photo['publish_date_epoch'] );
-			$item->set_date_format( get_option('date_format') );
+			$item->set_date_format( get_option( 'date_format' ) );
 
 			$response->add_item( $item );
 		}
@@ -173,12 +173,12 @@ class MEXP_23_Service extends MEXP_Service {
 		return $response;
 	}
 
-	private function _seconds2time($seconds = 0) {
-		$hours = floor($seconds / 3600);
-		$mins = floor(($seconds - ($hours*3600)) / 60);
-		$secs = floor($seconds % 60);
+	private function _seconds2time( $seconds = 0 ) {
+		$hours = floor( $seconds / 3600 );
+		$mins = floor( ( $seconds - ( $hours*3600 ) ) / 60 );
+		$secs = floor( $seconds % 60 );
 
-		return sprintf("%02d:%02d:%02d",$hours,$mins,$secs);
+		return sprintf( "%02d:%02d:%02d", $hours, $mins, $secs );
 	}
 
 }

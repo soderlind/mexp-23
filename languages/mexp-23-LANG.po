@@ -1,0 +1,100 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MEXP 23\n"
+"POT-Creation-Date: 2014-08-15 13:55+0100\n"
+"PO-Revision-Date: 2014-08-15 13:57+0100\n"
+"Last-Translator: Per Søderlind <per@soderlind.no>\n"
+"Language-Team: Per Søderlind <per@soderlind.no>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/service.php:77
+msgctxt "Tab title"
+msgid "All"
+msgstr ""
+
+#: includes/service.php:82
+msgctxt "Tab title"
+msgid "By Tag"
+msgstr ""
+
+#: includes/service.php:102
+msgid "Insert 23 Video"
+msgstr ""
+
+#: includes/service.php:103
+msgid "Insert"
+msgstr ""
+
+#: includes/service.php:104
+msgid "No videos matched your search query"
+msgstr ""
+
+#: includes/service.php:105
+msgid "Load more videos"
+msgstr ""
+
+#: includes/service.php:135
+msgid "You must set the settings on the \"Settings->23 Video\" setting page."
+msgstr ""
+
+#: includes/template.php:24
+msgid "by"
+msgstr ""
+
+#: includes/template.php:30
+msgid "Video length"
+msgstr ""
+
+#: includes/template.php:35
+msgid "Deselect"
+msgstr ""
+
+#: includes/template.php:66 includes/template.php:82 includes/template.php:98
+msgid "Search"
+msgstr ""
+
+#: settings/admin.php:82
+msgid "URL to your 23 Video site"
+msgstr ""
+
+#: settings/admin.php:83
+msgid "Consumer Key"
+msgstr ""
+
+#: settings/admin.php:84
+msgid "Consumer Secret"
+msgstr ""
+
+#: settings/admin.php:86
+msgid "AccessTokenSecret"
+msgstr ""
+
+#: settings/admin.php:87
+msgid "Other MEXP Services"
+msgstr ""
+
+#: settings/admin.php:87
+msgid ""
+"Select to enable MEXP Services. (CTRL-click/Option-click to choose multiple/"
+"unselect services)"
+msgstr ""
+
+#: settings/admin.php:151
+msgid ""
+"See <a href=\"http://www.23video.com/api/oauth#setting-up-your-application\" "
+"target=\"_blank\">\"Setting up your application\"</a> to learn how to obtain "
+"Consumer Key etc."
+msgstr ""
+
+#: settings/admin.php:166 settings/admin.php:191
+msgid "$label_for is missing"
+msgstr ""

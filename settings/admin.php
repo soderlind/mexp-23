@@ -79,12 +79,12 @@ class V23_Settings_Page {
 		// $consumerSecret = '';
 		// $accessToken = '';
 		// $accessTokenSecret = '';
-		add_settings_field( 'apiurl', 'URL to your 23 Video site', array( $this, 'form_field' ), 'v23-setting-admin', 'setting_section_id', array( 'type'=> 'text', 'label_for' => 'apiurl') );
-		add_settings_field( 'consumerkey', 'Consumer Key', array( $this, 'form_field' ), 'v23-setting-admin', 'setting_section_id', array( 'type'=> 'text', 'label_for' => 'consumerkey' ) );
-		add_settings_field( 'consumersecret', 'Consumer Secret', array( $this, 'form_field' ), 'v23-setting-admin', 'setting_section_id', array( 'type'=> 'text', 'label_for' => 'consumersecret' ) );
+		add_settings_field( 'apiurl', __( 'URL to your 23 Video site', 'mexp-23' ), array( $this, 'form_field' ), 'v23-setting-admin', 'setting_section_id', array( 'type'=> 'text', 'label_for' => 'apiurl' ) );
+		add_settings_field( 'consumerkey', __( 'Consumer Key', 'mexp-23' ), array( $this, 'form_field' ), 'v23-setting-admin', 'setting_section_id', array( 'type'=> 'text', 'label_for' => 'consumerkey' ) );
+		add_settings_field( 'consumersecret', __( 'Consumer Secret', 'mexp-23' ), array( $this, 'form_field' ), 'v23-setting-admin', 'setting_section_id', array( 'type'=> 'text', 'label_for' => 'consumersecret' ) );
 		add_settings_field( 'accesstoken', 'Access Token', array( $this, 'form_field' ), 'v23-setting-admin', 'setting_section_id', array( 'type'=> 'text', 'label_for' => 'accesstoken' ) );
-		add_settings_field( 'accesstokensecret', 'AccessTokenSecret', array( $this, 'form_field' ), 'v23-setting-admin', 'setting_section_id', array( 'type'=> 'text', 'label_for' => 'accesstokensecret' ) );
-		add_settings_field( 'chosenmexpservices', 'Other MEXP Services', array( $this, 'choose_mexp_services' ), 'v23-setting-admin', 'setting_section_id', array( 'label_for' => 'chosenmexpservices', 'description' => 'Select to enable MEXP Services. (CTRL-click/Option-click to choose multiple/unselect services)' ) );
+		add_settings_field( 'accesstokensecret', __( 'AccessTokenSecret', 'mexp-23' ), array( $this, 'form_field' ), 'v23-setting-admin', 'setting_section_id', array( 'type'=> 'text', 'label_for' => 'accesstokensecret' ) );
+		add_settings_field( 'chosenmexpservices', __( 'Other MEXP Services', 'mexp-23' ), array( $this, 'choose_mexp_services' ), 'v23-setting-admin', 'setting_section_id', array( 'label_for' => 'chosenmexpservices', 'description' => __( 'Select to enable MEXP Services. (CTRL-click/Option-click to choose multiple/unselect services)', 'mexp-23' ) ) );
 	}
 
 
@@ -148,7 +148,7 @@ class V23_Settings_Page {
 	 * Print the Section text
 	 */
 	public function print_section_info() {
-		_e( 'See <a href="http://www.23video.com/api/oauth#setting-up-your-application" target="_blank">"Setting up your application"</a> to learn how to obtain Consumer Key etc.' );
+		_e( 'See <a href="http://www.23video.com/api/oauth#setting-up-your-application" target="_blank">"Setting up your application"</a> to learn how to obtain Consumer Key etc.', 'mexp-23' );
 	}
 
 
@@ -163,7 +163,7 @@ class V23_Settings_Page {
 		$args = wp_parse_args( $args, $defaults );
 		extract( $args, EXTR_SKIP );
 		if ( ! isset( $label_for ) ) {
-			echo "\$label_for is missing";
+			echo __( "\$label_for is missing", 'mexp-23' );
 			return;
 		}
 
@@ -188,7 +188,7 @@ class V23_Settings_Page {
 
 		extract( $args, EXTR_SKIP );
 		if ( ! isset( $label_for ) ) {
-			echo "\$label_for is missing";
+			echo __( "\$label_for is missing", 'mexp-23' );
 			return;
 		}
 

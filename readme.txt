@@ -36,10 +36,13 @@ Upload MEXP 23  plugin to your blog's `wp-content/plugins/` directory and activa
 
 == Changelog ==
 
+= 0.1.2 =
+* Added `languages/mexp-23-LANG.po`
+
 = 0.1.1 =
-Updated submodule `lib/class-wp-23-video.php`, changed code for oauth_nonce.
+* Updated submodule `lib/class-wp-23-video.php`, changed code for oauth_nonce.
 
 = 0.1.0 =
-Initial release
+* Initial release
 
 
